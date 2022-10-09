@@ -1,20 +1,32 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import './supress-warnings';
+import {RootComponent} from './src/modules/root/component';
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+// const provider = new JsonRpcProvider('https://gateway.devnet.sui.io:443');
+/*
+async function x () {
+  const keypair = new Ed25519Keypair();
+  const signer = new RawSigner(
+    keypair,
+    new JsonRpcProvider('https://gateway.devnet.sui.io:443')
   );
+  const moveCallTxn = await signer.executeMoveCall({
+    packageObjectId: '0x2',
+    module: 'devnet_nft',
+    function: 'mint',
+    typeArguments: [],
+    arguments: [
+      'Example NFT',
+      'An NFT created by the wallet Command Line Tool',
+      'ipfs://bafkreibngqhl3gaa7daob4i2vccziay2jjlp435cf66vhono7nrvww53ty',
+    ],
+    gasBudget: 10000,
+  });
+
+  console.log('moveCallTxn', moveCallTxn)
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+x(); */
+
+export default function App() {
+  return <RootComponent />;
+}
