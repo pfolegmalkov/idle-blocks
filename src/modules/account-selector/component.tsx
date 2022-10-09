@@ -1,9 +1,9 @@
 import {useEffect, useState} from 'react';
 import {Button, Text} from 'react-native';
-import {useSuiWalletAccounts} from '../../utils/sui-wallet/accounts.hook';
-import {suiWalletGet} from '../../utils/sui-wallet/get';
-import {suiWalletHasPermissions} from '../../utils/sui-wallet/has-permissions';
-import {suiWalletRequestPermissions} from '../../utils/sui-wallet/request-permissions';
+import {useSuiWalletAccounts} from '../../utils/sui/wallet/accounts.hook';
+import {suiWalletGet} from '../../utils/sui/wallet/get';
+import {suiWalletHasPermissions} from '../../utils/sui/wallet/has-permissions';
+import {suiWalletRequestPermissions} from '../../utils/sui/wallet/request-permissions';
 
 type Props = {
   onAccountChanged: (accountId: string | void) => void;

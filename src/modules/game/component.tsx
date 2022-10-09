@@ -6,6 +6,9 @@ import Animated, {
   withTiming,
 } from 'react-native-reanimated';
 import {Circle, Rect, Svg} from 'react-native-svg';
+import {suiWalletExecuteMoveCall} from '../../utils/sui/wallet/execute-move-call';
+import {CharacterComponent} from '../character/component';
+import {gamePackageId} from './package-id';
 
 const AnimatedCircle = Animated.createAnimatedComponent(Circle);
 
@@ -63,23 +66,29 @@ const reducer = (state: State, action: ActionType): State => {
   return state;
 };
 
-export const GameComponent = () => {
+type Props = {accountId: string};
+
+export const GameComponent = ({accountId}: Props) => {
   const [state, dispatch] = useReducer(reducer, initialState);
 
   useEffect(() => {
     setInterval(() => dispatch({type: 'TICK'}), 1000);
   }, []);
+
   return (
-    <Svg
-      viewBox="0 0 300 100"
-      style={{backgroundColor: 'lightgreen', transform: [{scaleY: -1}]}}
-    >
-      <Rect x={10} width={15} height={40} fill="lightyellow" />
-      <>
-        {state.bullets.map((bullet) => (
-          <Bullet key={bullet.id} />
-        ))}
-      </>
-    </Svg>
+    <>
+      <CharacterComponent accountId={accountId} />
+      <Svg
+        viewBox="0 0 300 100"
+        style={{backgroundColor: 'lightgreen', transform: [{scaleY: -1}]}}
+      >
+        <Rect x={10} width={15} height={40} fill="lightyellow" />
+        <>
+          {state.bullets.map((bullet) => (
+            <Bullet key={bullet.id} />
+          ))}
+        </>
+      </Svg>
+    </>
   );
 };
