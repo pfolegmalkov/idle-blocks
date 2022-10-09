@@ -1,1 +1,1 @@
-export const gamePackageId = '0x4bd65cd8673feba2347dd33cae3a9904c10047d2';
+export const gamePackageId = '0x44bbb7fd41487c20b9814d605f631fcab5067574';

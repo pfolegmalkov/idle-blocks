@@ -1,0 +1,52 @@
+2022-10-09T18:27:00.785996Z  INFO sui::client_commands: [1m----- Certificate ----[0m
+2022-10-09T18:27:00.786025Z  INFO sui::client_commands: Transaction Hash: a3rywtNLDNCUdroQuXnmOwdtVyOMEfnQPgjWX2ukCFE=
+2022-10-09T18:27:00.786029Z  INFO sui::client_commands: Transaction Signature: AA==@IfgucdlGWeMrpjVEoLtREOluwxW74dgMW1C+o4cFc1X5enUhsqHGvUyaLyc0Qgd53lO0g6tPpFQYIQ+Cx4JyBg==@xGedd5mNxZPGMZWotIzgXc0U/X2oFrDA/3KY+Ve8400=
+2022-10-09T18:27:00.786033Z  INFO sui::client_commands: Signed Authorities Bitmap: RoaringBitmap<[0, 1, 2]>
+2022-10-09T18:27:00.786036Z  INFO sui::client_commands: Transaction Kind : Publish
+2022-10-09T18:27:00.786039Z  INFO sui::client_commands: [1m----- Transaction Effects ----[0m
+2022-10-09T18:27:00.786041Z  INFO sui::client_commands: Status : Success
+2022-10-09T18:27:00.786044Z  INFO sui::client_commands: Created Objects:
+2022-10-09T18:27:00.786047Z  INFO sui::client_commands:   - ID: 0x5a0e5c7dea08672e58604d8a51ba0754c12c4abf , Owner: Account Address ( 0x1162a431a98a28992d5481a475f00a11c80136af )
+2022-10-09T18:27:00.786050Z  INFO sui::client_commands:   - ID: 0xc834e7d46e92db6efb6a330ee8da4603c1eabaea , Owner: Immutable
+2022-10-09T18:27:00.786053Z  INFO sui::client_commands: Mutated Objects:
+2022-10-09T18:27:00.786056Z  INFO sui::client_commands:   - ID: 0x50695392c8c43e01c69a88d9e812dc76641750dc , Owner: Account Address ( 0x1162a431a98a28992d5481a475f00a11c80136af )
+2022-10-09T18:27:00.786058Z  INFO sui::client_commands: [1m----- Publish Results ----[0m
+2022-10-09T18:27:00.786061Z  INFO sui::client_commands: [1mThe newly published package object ID: 0xc834e7d46e92db6efb6a330ee8da4603c1eabaea
+2022-10-09T18:27:00.786064Z  INFO sui::client_commands: [0m
+2022-10-09T18:27:00.786066Z  INFO sui::client_commands: List of objects created by running module initializers:
+2022-10-09T18:27:00.786069Z  INFO sui::client_commands: [1m----- Move Object (0x5a0e5c7dea08672e58604d8a51ba0754c12c4abf[1]) -----[0m
+2022-10-09T18:27:00.786072Z  INFO sui::client_commands: [1;90mOwner[0m: Account Address ( 0x1162a431a98a28992d5481a475f00a11c80136af )
+2022-10-09T18:27:00.786074Z  INFO sui::client_commands: [1;90mVersion[0m: 1
+2022-10-09T18:27:00.786077Z  INFO sui::client_commands: [1;90mStorage Rebate[0m: 12
+2022-10-09T18:27:00.786080Z  INFO sui::client_commands: [1;90mPrevious Transaction[0m: a3rywtNLDNCUdroQuXnmOwdtVyOMEfnQPgjWX2ukCFE=
+2022-10-09T18:27:00.786082Z  INFO sui::client_commands: [1m----- Data -----[0m
+2022-10-09T18:27:00.786530Z  INFO sui::client_commands: [1;90mtype[0m: 0xc834e7d46e92db6efb6a330ee8da4603c1eabaea::main::AdminCap
+2022-10-09T18:27:00.786535Z  INFO sui::client_commands: [1;90mid[0m: 0x5a0e5c7dea08672e58604d8a51ba0754c12c4abf
+2022-10-09T18:27:00.786538Z  INFO sui::client_commands: 
+2022-10-09T18:27:00.786541Z  INFO sui::client_commands: Updated Gas : Coin { id: 0x50695392c8c43e01c69a88d9e812dc76641750dc, value: 9992289 }
+2022-10-09T18:27:20.686206Z  INFO sui::client_commands: [1m----- Certificate ----[0m
+2022-10-09T18:27:20.686275Z  INFO sui::client_commands: Transaction Hash: 5RP5owTYIrcdk5vYgORkm97k2YmjY0HQImlSUwcSADQ=
+2022-10-09T18:27:20.686285Z  INFO sui::client_commands: Transaction Signature: AA==@efsRQzMxuByOp3tHi1n3GYsJIFyiMg7FRZCUt2s/WbweMyNeF02Lvg8PpR2zShaeboofP+afZVuB7bknGIvLAw==@xGedd5mNxZPGMZWotIzgXc0U/X2oFrDA/3KY+Ve8400=
+2022-10-09T18:27:20.686292Z  INFO sui::client_commands: Signed Authorities Bitmap: RoaringBitmap<[0, 2, 3]>
+2022-10-09T18:27:20.686297Z  INFO sui::client_commands: Transaction Kind : Publish
+2022-10-09T18:27:20.686304Z  INFO sui::client_commands: [1m----- Transaction Effects ----[0m
+2022-10-09T18:27:20.686310Z  INFO sui::client_commands: Status : Success
+2022-10-09T18:27:20.686315Z  INFO sui::client_commands: Created Objects:
+2022-10-09T18:27:20.686321Z  INFO sui::client_commands:   - ID: 0x44bbb7fd41487c20b9814d605f631fcab5067574 , Owner: Immutable
+2022-10-09T18:27:20.686328Z  INFO sui::client_commands:   - ID: 0x690330d18cc9ff10be780121e17484c753160ebc , Owner: Account Address ( 0x1162a431a98a28992d5481a475f00a11c80136af )
+2022-10-09T18:27:20.686337Z  INFO sui::client_commands: Mutated Objects:
+2022-10-09T18:27:20.686344Z  INFO sui::client_commands:   - ID: 0x50695392c8c43e01c69a88d9e812dc76641750dc , Owner: Account Address ( 0x1162a431a98a28992d5481a475f00a11c80136af )
+2022-10-09T18:27:20.686350Z  INFO sui::client_commands: [1m----- Publish Results ----[0m
+2022-10-09T18:27:20.686357Z  INFO sui::client_commands: [1mThe newly published package object ID: 0x44bbb7fd41487c20b9814d605f631fcab5067574
+2022-10-09T18:27:20.686362Z  INFO sui::client_commands: [0m
+2022-10-09T18:27:20.686368Z  INFO sui::client_commands: List of objects created by running module initializers:
+2022-10-09T18:27:20.686374Z  INFO sui::client_commands: [1m----- Move Object (0x690330d18cc9ff10be780121e17484c753160ebc[1]) -----[0m
+2022-10-09T18:27:20.686739Z  INFO sui::client_commands: [1;90mOwner[0m: Account Address ( 0x1162a431a98a28992d5481a475f00a11c80136af )
+2022-10-09T18:27:20.686743Z  INFO sui::client_commands: [1;90mVersion[0m: 1
+2022-10-09T18:27:20.686746Z  INFO sui::client_commands: [1;90mStorage Rebate[0m: 12
+2022-10-09T18:27:20.686749Z  INFO sui::client_commands: [1;90mPrevious Transaction[0m: 5RP5owTYIrcdk5vYgORkm97k2YmjY0HQImlSUwcSADQ=
+2022-10-09T18:27:20.686752Z  INFO sui::client_commands: [1m----- Data -----[0m
+2022-10-09T18:27:20.686754Z  INFO sui::client_commands: [1;90mtype[0m: 0x44bbb7fd41487c20b9814d605f631fcab5067574::main::AdminCap
+2022-10-09T18:27:20.686757Z  INFO sui::client_commands: [1;90mid[0m: 0x690330d18cc9ff10be780121e17484c753160ebc
+2022-10-09T18:27:20.686760Z  INFO sui::client_commands: 
+2022-10-09T18:27:20.686763Z  INFO sui::client_commands: Updated Gas : Coin { id: 0x50695392c8c43e01c69a88d9e812dc76641750dc, value: 9991591 }
